@@ -1,0 +1,17 @@
+#include&nbsp&ltstdio.h&gt
+#include&nbsp&ltstdlib.h&gt
+int&nbspmain(void)
+{
+&nbsp&nbsp&nbsp&nbsp&nbspint&nbspa;
+&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("Input&nbspa&nbspHEX:");
+&nbsp&nbsp&nbsp&nbsp&nbspscanf("%x",&a);
+&nbsp&nbsp&nbsp&nbsp&nbsp//&nbsp%x&nbsp%X&nbsp表輸入的數字為十六進位數字&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("a=%x,&nbsp%d,&nbsp%o\n",a,a,a);
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("Input&nbspa&nbspOCT:");
+&nbsp&nbsp&nbsp&nbsp&nbspscanf("%o",&a);
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("Oct:%o,&nbspHex:%x,&nbspa=%d\n",a,a,a);
+&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbspsystem("pause");
+&nbsp&nbsp&nbsp&nbsp&nbspreturn&nbsp0;
+}

@@ -1,0 +1,11 @@
+#include&nbsp&ltstdio.h&gt
+#include&nbsp&ltstdlib.h&gt
+int&nbspmain(void)
+{
+&nbsp&nbsp&nbsp&nbspint&nbspa=200,b;&nbsp//&nbsp變數=初值&nbsp
+&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbspprintf("a=%d\n",a);
+&nbsp&nbsp&nbsp&nbspprintf("b=%d\n",b);
+&nbsp&nbsp&nbsp&nbspsystem("pause");
+&nbsp&nbsp&nbsp&nbspreturn&nbsp0;
+}

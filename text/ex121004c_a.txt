@@ -1,0 +1,15 @@
+#include&nbsp&ltstdio.h&gt
+#include&nbsp&ltstdlib.h&gt
+int&nbspmain(void)
+{
+&nbsp&nbsp&nbsp&nbspint&nbspa;
+&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbspprintf("Input&nbspa&nbsphexdeciaml&nbspnumber:");
+&nbsp&nbsp&nbsp&nbspscanf("%X",&a);
+&nbsp&nbsp&nbsp&nbspprintf("a=%x,&nbsp%X,&nbsp%d\n",a,a,a);
+&nbsp&nbsp&nbsp&nbspprintf("Please&nbspinput&nbspan&nbspoctal&nbspnumber:");
+&nbsp&nbsp&nbsp&nbspscanf("%o",&a);
+&nbsp&nbsp&nbsp&nbspprintf("a=%o,&nbsp%x,&nbsp%d\n",a,a,a);
+&nbsp&nbsp&nbsp&nbspsystem("pause");
+&nbsp&nbsp&nbsp&nbspreturn&nbsp0;
+}

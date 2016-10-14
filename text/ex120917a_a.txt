@@ -1,0 +1,11 @@
+#include&nbsp&ltstdio.h&gt
+#include&nbsp&ltstdlib.h&gt
+#include&nbsp&ltmath.h&gt
+
+int&nbspmain(void)
+{
+&nbsp&nbsp&nbsp&nbspprintf("Hello!\n");
+&nbsp&nbsp&nbsp&nbspprintf("sin(1)=%f\n",sin(1));
+&nbsp&nbsp&nbsp&nbspsystem("pause");
+&nbsp&nbsp&nbsp&nbspreturn&nbsp0;
+}

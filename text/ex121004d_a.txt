@@ -1,0 +1,15 @@
+#include&nbsp&ltstdio.h&gt
+#include&nbsp&ltstdlib.h&gt
+int&nbspmain(void)
+{
+&nbsp&nbsp&nbsp&nbspint&nbspa,b;
+&nbsp&nbsp&nbsp&nbspprintf("未初始化:&nbspa=%d,&nbspb=%d\n",a,b);
+&nbsp&nbsp&nbsp&nbspprintf("Please&nbspinput&nbsptwo&nbspnumbers:");
+&nbsp&nbsp&nbsp&nbspscanf("%d&nbsp,&nbsp%d",&a,&b);
+&nbsp&nbsp&nbsp&nbspprintf("a=%d,&nbspb=%d\n",a,b);
+&nbsp&nbsp&nbsp&nbspprintf("Please&nbspinput&nbspxx-oooo:");
+&nbsp&nbsp&nbsp&nbspscanf("%2x&nbsp-&nbsp%4o",&a,&b);
+&nbsp&nbsp&nbsp&nbspprintf("Your&nbspinput&nbsp%02X-%04o\n",a,b);
+&nbsp&nbsp&nbsp&nbspsystem("pause");
+&nbsp&nbsp&nbsp&nbspreturn&nbsp0;
+}

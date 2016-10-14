@@ -1,0 +1,17 @@
+#include&nbsp&ltstdio.h&gt
+#include&nbsp&ltstdlib.h&gt
+int&nbspmain(void)
+{
+&nbsp&nbsp&nbsp&nbsp&nbspint&nbspa=1000;
+&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("a=%d\n",a);
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("hex:&nbspa=%x,&nbspa=%X\n",a,a);
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("Oct:&nbspa=%o\n",a);
+&nbsp&nbsp&nbsp&nbsp&nbspa=0X1234;
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("a=%d,&nbsphex:%x,&nbspoct:%o\n",a,a,a);
+&nbsp&nbsp&nbsp&nbsp&nbspa=01234;
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("a=%d,&nbsphex:%x,&nbspoct:%o\n",a,a,a);
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("a=%o\n",a);&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbspsystem("pause");
+&nbsp&nbsp&nbsp&nbsp&nbspreturn&nbsp0;
+}

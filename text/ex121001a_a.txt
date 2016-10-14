@@ -1,0 +1,13 @@
+#include&nbsp&ltstdio.h&gt
+#include&nbsp&ltstdlib.h&gt
+int&nbspmain(void)
+{
+&nbsp&nbsp&nbsp&nbspint&nbspa=0,b;
+&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbspprintf("a=%d\n",a);
+&nbsp&nbsp&nbsp&nbspprintf("b=%d\n",b);
+&nbsp&nbsp&nbsp&nbspa=100;
+&nbsp&nbsp&nbsp&nbspprintf("a=%d\n",a);
+&nbsp&nbsp&nbsp&nbspsystem("pause");
+&nbsp&nbsp&nbsp&nbspreturn&nbsp0;
+}

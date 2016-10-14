@@ -1,0 +1,13 @@
+#include&nbsp&ltstdio.h&gt
+#include&nbsp&ltstdlib.h&gt
+int&nbspmain(void)
+{
+&nbsp&nbsp&nbsp&nbsp&nbspint&nbspa,b;
+
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("Input&nbspa&nbspnumber:");
+&nbsp&nbsp&nbsp&nbsp&nbspscanf("%2x&nbsp-&nbsp%4d",&a,&b);
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("a=%d,hex:%x\n",a,a);
+&nbsp&nbsp&nbsp&nbsp&nbspprintf("b=%d,hex:%x\n",b,b);
+&nbsp&nbsp&nbsp&nbsp&nbspsystem("pause");
+&nbsp&nbsp&nbsp&nbsp&nbspreturn&nbsp0;
+}

@@ -1,0 +1,9 @@
+#include&nbsp&ltstdio.h&gt
+#include&nbsp&ltstdlib.h&gt
+
+int&nbspmain(void){
+&nbsp&nbsp&nbsp&nbspfloat&nbspnum=28.47;
+&nbsp&nbsp&nbsp&nbspprintf("%07.2f\n",num);
+&nbsp&nbsp&nbsp&nbspsystem("pause");
+&nbsp&nbsp&nbsp&nbspreturn&nbsp0;
+}
