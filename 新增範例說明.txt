@@ -1,0 +1,22 @@
+新增一範例所需要的：
+
+以ex120920a.c為例
+* TXT文字檔請存成UTF-8碼
+
+text目錄
+ex120920a_a.txt  //空白換&nbsp檔、使標頭檔正常顯示，放上網用
+      修改步驟:1.複製ex120920a.c至ex120920a_a.txt
+               2.存成UTF-8
+               3.取代' '為'&nbsp'
+               4.把'<'改成&lt，'>'改成&gt，如#include&nbsp&ltstdio.h&gt
+               5.完成
+ex120920a_b.txt  //說明檔，最好要有和原檔一樣的行數
+
+code目錄
+ex120920a.c      //原始碼檔
+
+result_img目錄
+ex120920a.jpg    //結果圖檔
+
+example.txt檔案
+加入ex120920a
